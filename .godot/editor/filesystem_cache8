@@ -1,3 +1,10 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737418397
-icon.svg::CompressedTexture2D::8189930583297096992::1737418394::1737418397::1::::<><>::
+::res://::1737504941
+icon.svg::CompressedTexture2D::8189930583297096992::1737418856::1737419794::1::::<><>::
+::res://assets/::1737504948
+::res://assets/owl/::1737505279
+::res://assets/owl/affinity/::1737505285
+::res://assets/owl/neutral/::1737505070
+frame_0.jpg::CompressedTexture2D::5441993874920031391::1737505024::1737505288::1::::<><>::
+frame_1.jpg::CompressedTexture2D::9049453439992160329::1737505043::1737505288::1::::<><>::
+frame_2.jpg::CompressedTexture2D::6439403027548611364::1737505070::1737505288::1::::<><>::
