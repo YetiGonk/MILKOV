@@ -1,0 +1,36 @@
+[gd_scene load_steps=4 format=3 uid="uid://di4v1y2uooo2c"]
+
+[ext_resource type="Texture2D" uid="uid://5bd2o7xldp44" path="res://assets/backgrounds/test_bg.jpg" id="1_pl0q4"]
+[ext_resource type="PackedScene" uid="uid://nyuiqtvxniij" path="res://Character.tscn" id="2_0btju"]
+[ext_resource type="PackedScene" uid="uid://bhonr6057ruuc" path="res://DialogUI.tscn" id="3_cg33d"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="."]
+layer = -1
+
+[node name="TextureRect" type="TextureRect" parent="CanvasLayer"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+texture = ExtResource("1_pl0q4")
+
+[node name="CanvasLayer2" type="CanvasLayer" parent="."]
+
+[node name="Control" type="Control" parent="CanvasLayer2"]
+layout_mode = 3
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 0
+
+[node name="Character" parent="CanvasLayer2/Control" instance=ExtResource("2_0btju")]
+position = Vector2(0, -793)
+scale = Vector2(3, 3)
+
+[node name="DialogUI" parent="CanvasLayer2" instance=ExtResource("3_cg33d")]

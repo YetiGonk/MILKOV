@@ -1,6 +1,9 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737759549
+::res://::1737803570
+Character.tscn::PackedScene::963229530308710385::1737800058::0::1::::<><>::uid://dlgorm70r6e3c::::res://assets/sprites/falstaff/idle/frame_0.png<>uid://dagbi610slp6q::::res://assets/sprites/falstaff/idle/frame_1.png<>uid://cjptpgfy72mum::::res://assets/sprites/falstaff/idle/frame_2.png<>uid://dly0lbjlhtjr8::::res://assets/sprites/falstaff/talking/frame_1.png<>uid://cmqur40l0vi4u::::res://assets/sprites/falstaff/talking/frame_2.png
+DialogUI.tscn::PackedScene::2907465225368994178::1737803116::0::1::::<><>::
 icon.svg::CompressedTexture2D::2386749453362122500::1737418856::1737759515::1::::<><>::
+node_2d.tscn::PackedScene::7781962545739026016::1737803194::0::1::::<><>::uid://5bd2o7xldp44::::res://assets/backgrounds/test_bg.jpg<>uid://nyuiqtvxniij::::res://Character.tscn<>uid://bhonr6057ruuc::::res://DialogUI.tscn
 ::res://addons/::1737759519
 ::res://addons/ez_dialogue/::1737759519
 dialogue_reader.gd::GDScript::-1::1737759517::0::1::::EzDialogueReader<>Node<>::
@@ -49,3 +52,6 @@ frame_2.jpg::CompressedTexture2D::6439403027548611364::1737505070::1737758960::1
 frame_0 copy 2.jpg::CompressedTexture2D::4596903399636109436::1737505024::1737758960::1::::<><>::
 frame_0.jpg::CompressedTexture2D::6580384628729864327::1737505024::1737758960::1::::<><>::
 frame_1.jpg::CompressedTexture2D::5579281617204639761::1737505024::1737758960::1::::<><>::
+::res://fonts/::1737803577
+Pixel Bug.otf::FontFile::5747208630915500754::1737803577::1737803577::1::::<><>::
+Pixel Times.ttf::FontFile::8461618290604620408::1737803499::1737803570::1::::<><>::
